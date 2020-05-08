@@ -1,17 +1,22 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <link rel="icon" href="/images/weather.png">
-        <title>About</title>
-        <link rel="stylesheet" href="/css/styles.css">
-    </head>
 
-    <body>
-        <div class="main-content">
-          {{>header}}
-          <img class="portrait" src="/images/robot.png" alt="My profile picture"> 
-        </div>
-        
-        {{>footer}}
-    </body>
+<head>
+    <link rel="icon" href="/images/weather.png">
+    <title>About</title>
+    <link rel="stylesheet" href="/css/styles.css">
+</head>
+
+<body>
+    <div class="main-content">
+        {{>header}}
+        <p>This site was created for fun and practicing. It uses data from <a href="http://mapbox.com">mapbox.com</a> and
+            <a href="http://weatherstack.com">weatherstack.com</a>
+        </p>
+        <img class="portrait" src="/images/robot.png" alt="My profile picture">
+    </div>
+
+    {{>footer}}
+</body>
+
 </html>
