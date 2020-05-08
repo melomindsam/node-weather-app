@@ -42,7 +42,7 @@ app.get("/help", (req, res) => {
     title: "Help",
     name: "Moustapha SAMAKE",
     message:
-      "If you have any questions, feel free to send me an email at moustaphasamake@gmail.com",
+      "If you have any questions, feel free to send me an email at <a href=\"mailto:moustaphasamake@mail.com\">",
   });
 });
 
